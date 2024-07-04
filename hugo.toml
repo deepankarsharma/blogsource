@@ -1,0 +1,15 @@
+baseURL = 'https://deepankar.org/'
+languageCode = 'en-us'
+title = 'Opdroids Tech Journal'
+#theme = 'hugo-texify3'
+#theme = 'hugo-theme-nostyleplease'
+theme = 'hugo-theme-monochrome'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+enable_site_search = true # default: false
+enableOpenGraph = true
+enableTwitterCards = true
+enable_header_anchor = true

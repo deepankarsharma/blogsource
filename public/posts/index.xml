@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Opdroids Tech Journal</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Opdroids Tech Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jul 2024 23:13:02 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Fast IO on Linux using Rust</title>
+      <link>http://localhost:1313/posts/rust-io/</link>
+      <pubDate>Wed, 03 Jul 2024 23:13:02 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/rust-io/</guid>
+      <description>We will be trying to compare various different ways of reading a file using Rust. Apart from &amp;#34;wc -l&amp;#34; we will be running each function 10 times using criterion and then picking the mean.
+Code for the following benchmarks lives at Benchmark code for Linux IO using Rust. In the following code BUFFER_SIZE was 8192 and NUM_BUFFERS was 32.
+Details about the machine Framework 16 with 7840hs and 64 Gigs of RAM.</description>
+    </item>
+    
+  </channel>
+</rss>
