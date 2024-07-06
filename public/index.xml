@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deepankar Sharma&#39;s corner on the internet on Opdroids Tech Journal</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Deepankar Sharma&#39;s corner on the internet on Opdroids Tech Journal</description>
+    <title>Deepankar&#39;s corner on the internet on Deepankars Tech Journal</title>
+    <link>https://deepankar.org/</link>
+    <description>Recent content in Deepankar&#39;s corner on the internet on Deepankars Tech Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2024 23:13:02 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 15:29:45 -0400</lastBuildDate><atom:link href="https://deepankar.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPGPU on AMD: Vector addition kernel using libhsa</title>
+      <link>https://deepankar.org/posts/hsa-vector-add/</link>
+      <pubDate>Sat, 06 Jul 2024 15:29:45 -0400</pubDate>
+      
+      <guid>https://deepankar.org/posts/hsa-vector-add/</guid>
+      <description>Motivation The following questions have been on my mind for some time now:
+Why has AMD not been able to replicate CUDA? Why is there no GPGPU (general purpose gpu) programming stack that works across AMD&amp;rsquo;s entire product portfolio? Why do AMD SDKs typically only work with a few Distros and Kernel versions? If you squint a bit and think of shaders as general purpose computation, what explains the disparity between AMD being able to run shader computation on GPUs out of the box on practically any unixen with OSS drivers while being unable to do the same for CUDA style compute tasks?</description>
+    </item>
+    
     <item>
       <title>Towards Fast IO on Linux using Rust</title>
-      <link>http://localhost:1313/posts/rust-io/</link>
+      <link>https://deepankar.org/posts/rust-io/</link>
       <pubDate>Wed, 03 Jul 2024 23:13:02 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/rust-io/</guid>
+      <guid>https://deepankar.org/posts/rust-io/</guid>
       <description>We will be trying to compare various different ways of reading a file using Rust. Apart from &amp;#34;wc -l&amp;#34; we will be running each function 10 times using criterion and then picking the mean.
 Code for the following benchmarks lives at Benchmark code for Linux IO using Rust. In the following code BUFFER_SIZE was 8192 and NUM_BUFFERS was 32.
 Details about the machine Framework 16 with 7840hs and 64 Gigs of RAM.</description>

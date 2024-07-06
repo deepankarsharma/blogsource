@@ -16,3 +16,5 @@ Cargo.lock
 .hugo_build.lock
 package-lock.json
 node_modules
+public
+resources/_gen/assets
