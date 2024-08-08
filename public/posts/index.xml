@@ -2,27 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Deepankars Tech Journal</title>
-    <link>https://deepankar.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Deepankars Tech Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jul 2024 15:29:45 -0400</lastBuildDate><atom:link href="https://deepankar.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Aug 2024 22:48:38 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn Rust via MIR</title>
+      <link>http://localhost:1313/posts/learn-rust-via-mir/</link>
+      <pubDate>Wed, 07 Aug 2024 22:48:38 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/learn-rust-via-mir/</guid>
+      <description>Background MIR stands for Mid-Level-IR and is an Intermediate representation that sits between Rust HIR and LLVM IR. An excellent source for learning more about MIR is Introducing MIR.
+I am a systems programmer whose prior systems languages are C and C++. As a systems programmer I am always curious to understand the cost of things and to have some idea of how they are implemented internally. Recently I have been learning Rust and have been looking to bootstrap my understanding of Rust semantics and how they are implemented.</description>
+    </item>
+    
     <item>
       <title>GPGPU on AMD: Vector addition kernel using libhsa</title>
-      <link>https://deepankar.org/posts/hsa-vector-add/</link>
+      <link>http://localhost:1313/posts/hsa-vector-add/</link>
       <pubDate>Sat, 06 Jul 2024 15:29:45 -0400</pubDate>
       
-      <guid>https://deepankar.org/posts/hsa-vector-add/</guid>
+      <guid>http://localhost:1313/posts/hsa-vector-add/</guid>
       <description>Motivation The following questions have been on my mind for some time now:
 Why has AMD not been able to replicate CUDA? Why is there no GPGPU (general purpose gpu) programming stack that works across AMD&amp;rsquo;s entire product portfolio? Why do AMD SDKs typically only work with a few Distros and Kernel versions? If you squint a bit and think of shaders as general purpose computation, what explains the disparity between AMD being able to run shader computation on GPUs out of the box on practically any unixen with OSS drivers while being unable to do the same for CUDA style compute tasks?</description>
     </item>
     
     <item>
       <title>Towards Fast IO on Linux using Rust</title>
-      <link>https://deepankar.org/posts/rust-io/</link>
+      <link>http://localhost:1313/posts/rust-io/</link>
       <pubDate>Wed, 03 Jul 2024 23:13:02 -0400</pubDate>
       
-      <guid>https://deepankar.org/posts/rust-io/</guid>
+      <guid>http://localhost:1313/posts/rust-io/</guid>
       <description>We will be trying to compare various different ways of reading a file using Rust. Apart from &amp;#34;wc -l&amp;#34; we will be running each function 10 times using criterion and then picking the mean.
 Code for the following benchmarks lives at Benchmark code for Linux IO using Rust. In the following code BUFFER_SIZE was 8192 and NUM_BUFFERS was 32.
 Details about the machine Framework 16 with 7840hs and 64 Gigs of RAM.</description>
