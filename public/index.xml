@@ -14,7 +14,7 @@
       
       <guid>http://localhost:1313/posts/learn-rust-via-mir/</guid>
       <description>Background MIR stands for Mid-Level-IR and is an Intermediate representation that sits between Rust HIR and LLVM IR. An excellent source for learning more about MIR is Introducing MIR.
-I am a systems programmer whose prior systems languages are C and C++. As a systems programmer I am always curious to understand the cost of things and to have some idea of how they are implemented internally. Recently I have been learning Rust and have been looking to bootstrap my understanding of Rust semantics and how they are implemented.</description>
+I am a systems programmer whose prior systems languages are C and C++. As a systems programmer I am always curious to understand the cost of things and to have some idea of how they are implemented internally. Recently I have been learning Rust and have been looking to bootstrap my understanding of Rust semantics.</description>
     </item>
     
     <item>
